@@ -1,7 +1,7 @@
 {
   "name": "sofiametronavigator",
   "description": "Mobile application for navigating the Sofia metro stations",
-  "version": "0.0.1",
+  "version": "1.13.0",
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
@@ -19,11 +19,14 @@
     ]
   },
   "dependencies": {
+    "prop-types": "^15.7.1",
     "react": "16.6.3",
-    "react-native": "0.58.4"
+    "react-native": "0.58.4",
+    "react-native-onboarding-swiper": "^1.0.1"
   },
   "devDependencies": {
     "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "^10.0.1",
     "babel-jest": "24.1.0",
     "eslint": "^5.13.0",
     "eslint-config-airbnb": "^17.1.0",
