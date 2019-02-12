@@ -1,5 +1,6 @@
 {
   "extends": "airbnb",
+  "parser": "babel-eslint",
   "env": {
     "jest": true
   },
@@ -10,6 +11,7 @@
         "extensions": [".js"]
       }
     ],
-    "quotes": [2, "double", { "avoidEscape": true }]
+    "quotes": [2, "double", { "avoidEscape": true }],
+    "global-require": [0]
   }
 }
